@@ -1,16 +1,16 @@
 title:              Balu Natarajan
 email:              balu1inbox@gmail.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+description:        Mining, Emissions reduction, Technology, Product management and leadership 
+author:             Balu Natarajan
 # baseurl:            "/startbootstrap-clean-blog-jekyll"
 url:                "https://startbootstrap.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:    thasildar
+facebook_username:  balu.natarajan.716
 instagram_username:  
-linkedin_username:
+linkedin_username:  baluexec
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
@@ -23,5 +23,3 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
-
-theme: jekyll-theme-slate
