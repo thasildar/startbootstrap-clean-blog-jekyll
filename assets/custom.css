@@ -1,0 +1,19 @@
+.post-preview-box {
+    background-color: rgb(241, 238, 238);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.medium-title {
+    font-size: 20px;
+}
+.meta {
+    color: #565b5f;
+    font-style: italic;
+    line-height: 130%;
+    font-size: 80%;
+    font-weight: 400;
+    margin: 1rem 0;
+}
