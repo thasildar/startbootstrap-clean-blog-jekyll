@@ -17,3 +17,10 @@
     font-weight: 400;
     margin: 1rem 0;
 }
+.fit-content {
+    width: max-content;
+}
+
+.xmargin1 {
+    margin: 1rem 1rem;
+}

@@ -25,7 +25,7 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class=" row col-lg-8 col-md-10 mx-auto">
+      <div class=" row col-lg-9 col-md-10 mx-auto">
         <div class="col">
           <h2 class="text-center mb-4">Mining</h2>
           {% for post in site.posts limit : 5 %}
@@ -95,6 +95,35 @@ layout: default
           {% endfor %}
           <hr>
         </div>
+      </div>
+
+      <div class="col-lg-9 col-md-10 mb-5 mx-auto">
+        <h2 class="text-center mb-4">Favorite Articles from the Web</h2>
+        <!-- Copy Starting Here  -->
+        <div class="row"> 
+          <!-- First article in column -->
+          <div class="col post-preview post-preview-box xmargin1 fit-content rounded border">
+            <a href="google.com">
+              <h4 class="medium-title">Cool Article</h4>
+            </a>
+            <h6 class="font-weight-light">Quick Summary about the article very cool</h6>
+            <p class="meta">
+              Written By {insert name here} on {publication}
+            </p>
+          </div>
+          <!-- Second article in column -->
+          <div class="col post-preview post-preview-box xmargin1 fit-content rounded border">
+            <a href="google.com">
+              <h4 class="medium-title">Cool Article</h4>
+            </a>
+            <h6 class="font-weight-light">Quick Summary about the article very cool</h6>
+            <p class="meta">
+              Written By {insert name here} on {publication}
+            </p>
+          </div>
+        </div>
+        <!-- Copy until Here -->
+      </div>
 
         <!-- Home Post List
         {% for post in site.posts limit : 5 %}
@@ -127,7 +156,5 @@ layout: default
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
         </div> -->
-
-      </div>
     </div>
   </div>
