@@ -27,9 +27,9 @@ layout: default
     <div class="row">
       <div class=" row col-lg-8 col-md-10 mx-auto">
         <div class="col">
-          <h2 class="text-center mb-4">Expertise 1</h2>
+          <h2 class="text-center mb-4">Mining</h2>
           {% for post in site.posts limit : 5 %}
-            {% if post.category == "Expertise1" %}
+            {% if post.category == "Mining" %}
               <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 <article class="post-preview post-preview-box rounded border">
                     <h4 class="medium-title">{{ post.title }}</h4>
@@ -50,9 +50,9 @@ layout: default
           <hr>
         </div>
         <div class="col text-center">
-          <h2 class="text-center mb-4">Expertise 2</h2>
+          <h2 class="text-center mb-4">Sustainability</h2>
           {% for post in site.posts limit : 5 %}
-            {% if post.category == "Expertise2" %}
+            {% if post.category == "Sustainability" %}
               <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 <article class="post-preview post-preview-box rounded border">
                     <h4 class="medium-title">{{ post.title }}</h4>
@@ -73,9 +73,9 @@ layout: default
           <hr>
         </div>
         <div class="col text-center">
-          <h2 class="text-center mb-4">Expertise 3</h2>
+          <h2 class="text-center mb-4">Business</h2>
           {% for post in site.posts limit : 5 %}
-            {% if post.category == "Expertise3" %}
+            {% if post.category == "Business" %}
               <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 <article class="post-preview post-preview-box rounded border">
                     <h4 class="medium-title">{{ post.title }}</h4>
